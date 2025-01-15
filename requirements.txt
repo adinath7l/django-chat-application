@@ -1,0 +1,4 @@
+Django>=4.0
+djangorestframework>=3.12.4
+channels>=4.0.0
+asgiref>=3.5.2
