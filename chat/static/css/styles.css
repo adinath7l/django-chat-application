@@ -1,0 +1,69 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+/* Navbar */
+header nav {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 1em;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Forms */
+.form-container {
+    max-width: 400px;
+    margin: 2em auto;
+    padding: 1em;
+    border: 1px solid #ddd;
+    background-color: white;
+}
+
+/* Chat and Collapsible Menu */
+.content-container {
+    display: flex;
+}
+
+#left-menu {
+    width: 25%;
+    display: none;
+    padding: 1em;
+    background-color: #f4f4f4;
+    border-right: 1px solid #ddd;
+}
+
+#chat-box {
+    width: 75%;
+    padding: 1em;
+}
+
+button {
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
