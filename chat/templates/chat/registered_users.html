@@ -1,0 +1,17 @@
+{% extends 'chat/base.html' %}
+{% block content %}
+<div class="content-container">
+    <button id="menu-btn">Toggle Registered Users</button>
+    <div id="left-menu">
+        <h3>Registered Users</h3>
+        <ul>
+            {% for user in users %}
+            <li><a href="{% url 'start_chat' user.id %}">{{ user.username }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div id="chat-box">
+        <h2>Welcome to Your Chat</h2>
+    </div>
+</div>
+{% endblock %}
